@@ -1,6 +1,6 @@
 
 const KEY = 'cad845a2da604f313d559dee7ddcc7f3';
-const API_URL = 'http://api.openweathermap.org/data/2.5/forecast?q=nynashamn&appid=' + KEY;
+const API_URL = 'https://api.openweathermap.org/data/2.5/forecast?q=nynashamn&appid=' + KEY;
 
 /*ett objekt som håller ajaxobjektet*/ 
 function HttpGet(url){
